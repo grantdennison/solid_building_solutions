@@ -1,0 +1,27 @@
+.profile-section {
+  position: fixed;
+}
+
+.nav_bar .icon_cont {
+  width: 220px;
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  background: #d19446;
+  background: linear-gradient(to left, #d19446 0%, #dcaf77 45%, #8c5e2a 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav_bar .icon_cont svg * {
+  fill: url(#rg);
+}
+
+.nav_bar .icon {
+  transition: transform 0.3s;
+}
+
+.nav_bar .icon:hover {
+  fill: aliceblue;
+  color: rgb(254, 252, 249);
+  transform: scale(1.7);
+}
